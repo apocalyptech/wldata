@@ -1,0 +1,7 @@
+crypto.json
+extracted*
+pak-*/*.pak
+UnrealPak*
+__pycache__
+contents-*.txt.xz
+wwnames*
