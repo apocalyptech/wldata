@@ -138,6 +138,10 @@ $page->set_title('Wonderlands Pakfile Contents Lookup (Steam Data)');
 $page->add_css('pakfile.css', 1);
 $page->add_js('pakfile.js', 1);
 $page->add_changelog('June 27, 2022', 'Initial release (data current as of Steam release)');
+$page->add_changelog('August 4, 2022', array(
+    'Added SQLite database dump',
+    "Link to sourcecode <em>(why didn't I do that originally?)</a>",
+));
 $page->apoc_header();
 
 if (count($errors) > 0)
@@ -159,10 +163,18 @@ This page can be used to find which pakfiles contain which Wonderlands game obje
 interested in <a href="https://github.com/BLCM/BLCMods/wiki/Accessing-Borderlands-3-Data">accessing
 Wonderlands data</a> for modding purposes, but who doesn't want to unpack literally
 everything.  Using this page you can find out the specific pakfile which has what you
-want and unpack just that one.  Text files which describe pakfile contents are also
-available <a href="https://drive.google.com/drive/folders/1LZpMrunKHhjd2Fep14LT6KXYvtHAy9_l?usp=sharing">via
-this Google Drive link</a>.
+want and unpack just that one.
 </p>
+
+<ul class="compact">
+<li>Text files which describe pakfile contents are also
+    available <a href="https://drive.google.com/drive/folders/1LZpMrunKHhjd2Fep14LT6KXYvtHAy9_l?usp=sharing">via
+    this Google Drive link</a>.</li>
+<li>A <a href="https://www.sqlite.org/">SQLite</a> dump of the database is
+    available here: <a href="wlpakfile.sqlite3.zip">wlpakfile.sqlite3.zip</a>.</li>
+<li>The sourcecode for this site, and the data-generation scripts, live
+    in my <a href="https://github.com/apocalyptech/wldata">wldata</a> repo.</li>
+</ul>
 
 <p>
 <strong>Note:</strong> Unlike Borderlands 3, it looks like the Steam and Epic versions
