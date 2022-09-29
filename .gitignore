@@ -6,4 +6,5 @@ __pycache__
 contents-*.txt.xz
 wwnames*
 wlpakfile.sqlite3*
+*.sql.gz
 final-binaries-strings.txt
