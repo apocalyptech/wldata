@@ -140,7 +140,7 @@ $page->add_js('pakfile.js', 1);
 $page->add_changelog('June 27, 2022', 'Initial release (data current as of Steam release)');
 $page->add_changelog('August 4, 2022', array(
     'Added SQLite database dump',
-    "Link to sourcecode <em>(why didn't I do that originally?)</a>",
+    "Link to sourcecode <em>(why didn't I do that originally?)</em>",
 $page->add_changelog('August 11, 2022', 'Updated with DLC4 Data');
 $page->add_changelog('September 29, 2022', 'Updated with data from today\'s patch');
 ));
